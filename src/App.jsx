@@ -7,7 +7,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="font-inter bg-black leading-normal tracking-normal text-white flex flex-col justify-center items-center">
+    <div className="font-inter">
       <Router>
         <Navbar />
 

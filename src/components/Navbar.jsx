@@ -14,7 +14,7 @@ const Navbar = () => {
   }, [location]);
 
   return (
-    <header className="container px-2 md:px-10 flex justify-between items-center h-20 text-white ">
+    <header className="bg-black text-white flex justify-between items-center h-24 px-4 max-w-[1240px] mx-auto">
       <h1 className="tracking-wider font-extrabold text-lg md:text-xl text-gray-100">
         &lt;matheus<span className="text-yellow-500">.</span>dev{" "}
         <span className="text-yellow-500">/</span>&gt;
@@ -36,14 +36,41 @@ const Navbar = () => {
           ))}
         </ul>
 
+        {/* hamburguer menu for mobile devices */}
+        <div
+          onClick={() => setExpandNavbar((prev) => !prev)}
+          className="sm:hidden flex flex-1 justify-end items-center text-white"
+        >
+          {expandNavbar ? <FaTimes size={20} /> : <FaBars size={20} />}
+        </div>
+
         {/* expanded navbar for mobile devices */}
-        <div className="sm:hidden flex flex-1 justify-end items-center text-white">
-          {expandNavbar ? (
-            <FaTimes onClick={() => setExpandNavbar((prev) => !prev)} />
-          ) : (
-            <FaBars onClick={() => setExpandNavbar((prev) => !prev)} />
-          )}
-          <div
+        <div
+          className={
+            expandNavbar
+              ? "fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-black/90 px-4 ease-in-out duration-500"
+              : "fixed left-[-100%]"
+          }
+        >
+          <ul className="pt-12 uppercase text-lg font-semibold">
+            {navLinks.map((nav, index) => (
+              <li
+                key={nav.id}
+                className={`p-4 font-medium cursor-pointer text-lg ${
+                  activeLink === nav.title ? "text-yellow-500" : "text-gray-400"
+                } ${
+                  index === navLinks.length - 1
+                    ? ""
+                    : "border-b border-gray-600"
+                }`}
+                onClick={() => setActiveLink(nav.title)}
+              >
+                <Link to={nav.path}>{nav.title}</Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+        {/* <div
             className={`${
               expandNavbar ? "flex" : "hidden"
             } p-6 bg-black border-2 border-gray-400 absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-sm sidebar`}
@@ -63,8 +90,7 @@ const Navbar = () => {
                 </li>
               ))}
             </ul>
-          </div>
-        </div>
+          </div> */}
       </nav>
     </header>
   );
