@@ -15,14 +15,14 @@ const Navbar = () => {
 
   return (
     <header className="bg-black text-white flex justify-between items-center h-24 px-4 max-w-[1240px] mx-auto">
-      <h1 className="tracking-wider font-extrabold text-lg md:text-xl text-gray-100">
+      <h1 className="tracking-wider font-extrabold text-xl md:text-2xl text-gray-100">
         &lt;matheus<span className="text-yellow-500">.</span>dev{" "}
         <span className="text-yellow-500">/</span>&gt;
       </h1>
 
       <nav>
         {/* navbar for large devices */}
-        <ul className="hidden sm:flex list-none">
+        <ul className="hidden md:flex items-center list-none">
           {navLinks.map((nav, index) => (
             <li
               key={nav.id}
@@ -39,7 +39,7 @@ const Navbar = () => {
         {/* hamburguer menu for mobile devices */}
         <div
           onClick={() => setExpandNavbar((prev) => !prev)}
-          className="sm:hidden flex flex-1 justify-end items-center text-white"
+          className="md:hidden flex flex-1 justify-end items-center text-white"
         >
           {expandNavbar ? <FaTimes size={20} /> : <FaBars size={20} />}
         </div>
