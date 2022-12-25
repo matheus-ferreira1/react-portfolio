@@ -5,16 +5,16 @@ import Laptop from "../assets/laptop.jpg";
 
 const Hero = () => {
   return (
-    <section className="w-full bg-gray-1 py-16 px-4 text-white">
-      <div className="max-w-[1240px] mx-auto grid md:grid-cols-2">
-        <div>
+    <section className="w-full mx-auto bg-gray-1 py-16 px-4 text-white ">
+      <div className="max-w-[1240px] mx-auto flex flex-col md:flex-row justify-center items-center gap-4">
+        <div className="w-[70%] md:w-[50%]">
           <img
-            className="bg-transparent w-[50%] mx-auto my-4"
+            className="bg-transparent w-[455px] mx-auto my-4"
             src={Laptop}
             alt=""
           />
         </div>
-        <div className="flex flex-col justify-center gap-2 my-4">
+        <div className="px-4 w-auto md:w-[50%] flex flex-col justify-center gap-2 my-4">
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold py-2">
             Matheus Ferreira
             <span className="text-yellow-500">.</span>
