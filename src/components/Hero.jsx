@@ -24,7 +24,7 @@ const Hero = () => {
           </h3>
           <p className="text-gray-600">
             Estudante de Análise e Desenvolvimento de Sistemas, Bacharel em
-            Biotecnologia. Evangelista do JavaScript Vanilla.
+            Biotecnologia. Apaixonado por aprender novas tecnologias e criar.
           </p>
           <div className="flex gap-4 mt-4">
             <a

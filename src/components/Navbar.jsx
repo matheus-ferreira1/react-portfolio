@@ -14,7 +14,7 @@ const Navbar = () => {
   }, [location]);
 
   return (
-    <header className="bg-black text-white flex justify-between items-center h-24 px-4 max-w-[1240px] mx-auto">
+    <header className="bg-black text-white flex justify-between items-center h-24 px-4 lg:px-0 max-w-[1240px] mx-auto">
       <h1 className="tracking-wider font-extrabold text-xl md:text-2xl text-gray-100">
         &lt;matheus<span className="text-yellow-500">.</span>dev{" "}
         <span className="text-yellow-500">/</span>&gt;

@@ -9,7 +9,7 @@ const Skills = () => {
         <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-8">
           Habilidades<span className="text-yellow-500">.</span>
         </h1>
-        <div className=" grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+        <div className="mt-12 grid sm:grid-cols-2 md:grid-cols-3 gap-4">
           {skills.map((skill) => (
             <SkillCard key={skill.id} skill={skill} />
           ))}
