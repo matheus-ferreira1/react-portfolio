@@ -42,3 +42,24 @@ export const skills = [
     tools: "NPM, Yarn, Linux",
   },
 ];
+
+export const formationItems = [
+  {
+    id: "biotecnologia",
+    title: "Biotecnologia",
+    institute: "ufba",
+    nivel: "bacharelado",
+  },
+  {
+    id: "ads",
+    title: "Análise e Desenvolvimento de Sistemas",
+    institute: "faculdade descomplica",
+    nivel: "tecnólogo",
+  },
+  {
+    id: "programadorWeb",
+    title: "Programador Web",
+    institute: "ifrs",
+    nivel: "curso aberto",
+  },
+];

@@ -5,7 +5,7 @@ import Laptop from "../assets/laptop.jpg";
 
 const Hero = () => {
   return (
-    <section className="w-full mx-auto bg-gray-50 py-16 px-4 text-black ">
+    <section className="w-full mx-auto bg-white py-16 px-4 text-black ">
       <div className="max-w-[1240px] mx-auto flex flex-col md:flex-row justify-center items-center gap-4">
         <div className="w-[70%] md:w-[50%]">
           <img
@@ -23,8 +23,7 @@ const Hero = () => {
             Desenvolvedor Web FullStack
           </h3>
           <p className="text-gray-600">
-            Estudante de Análise e Desenvolvimento de Sistemas, Bacharel em
-            Biotecnologia. Apaixonado por aprender novas tecnologias e criar.
+            Desenvolvedor de software apaixonado por aprender e criar.
           </p>
           <div className="flex gap-4 mt-4">
             <a
@@ -32,21 +31,21 @@ const Hero = () => {
               href="https://github.com/matheus-ferreira1"
               target="_blank"
             >
-              <FaGithub size={30} />
+              <FaGithub size={40} />
             </a>
             <a
               className="hover:text-yellow-500 duration-200"
               href="https://www.linkedin.com/in/matheus-ferreira33/"
               target="_blank"
             >
-              <FaLinkedin size={30} />
+              <FaLinkedin size={40} />
             </a>
             <a
               className="hover:text-yellow-500 duration-200"
               href="mailto:matheustferreira33@gmail.com"
               target="_blank"
             >
-              <HiMail size={30} />
+              <HiMail size={40} />
             </a>
           </div>
         </div>
