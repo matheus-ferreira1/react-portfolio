@@ -11,7 +11,7 @@ const SkillCard = ({ skill }) => {
         borderBottomColor: color,
         borderBottomWidth: "8px",
       }}
-      className="bg-black text-gray-300 w-full hover:shadow-lg hover:shadow-gray-800 flex flex-col gap-4 p-8 rounded-lg grayscale hover:grayscale-0 duration-200"
+      className="bg-black text-gray-400 hover:text-white w-full hover:shadow-lg hover:shadow-gray-800 flex flex-col gap-4 p-8 rounded-lg grayscale hover:grayscale-0 duration-200"
     >
       <Icon style={style} size={50} />
       <h1 className="font-bold text-xl capitalize">{name}</h1>
