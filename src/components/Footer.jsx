@@ -30,7 +30,7 @@ const Footer = () => {
       </div>
 
       <div className="flex flex-col justify-center items-center">
-        <p className="text-base">
+        <p className="text-base mb-2">
           Feito com <span className="text-yellow-500">❤</span> e ☕ por Matheus
           Ferreira
         </p>
