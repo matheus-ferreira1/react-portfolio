@@ -5,7 +5,7 @@ import Laptop from "../assets/laptop.jpg";
 
 const Hero = () => {
   return (
-    <section className="w-full mx-auto bg-white py-28 px-4 text-black ">
+    <section className="w-full mx-auto my-auto bg-white py-32 px-4 text-black">
       <div className="max-w-[1240px] mx-auto flex flex-col md:flex-row justify-center items-center gap-4">
         <div className="w-[70%] md:w-[50%]">
           <img
@@ -19,10 +19,10 @@ const Hero = () => {
             Matheus Ferreira
             <span className="text-yellow-500">.</span>
           </h1>
-          <h3 className="uppercase text-gray-700 text-xl font-normal">
+          <h3 className="uppercase text-gray-700 text-xl font-semibold">
             Desenvolvedor Web FullStack
           </h3>
-          <p className="text-gray-600">
+          <p className="text-gray-600 text-lg">
             Desenvolvedor de software apaixonado por aprender e criar.
           </p>
           <div className="flex justify-center md:justify-start gap-4 mt-4">

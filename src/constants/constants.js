@@ -1,4 +1,11 @@
-import { FaReact, FaNodeJs, FaTools } from "react-icons/fa";
+import {
+  FaReact,
+  FaNodeJs,
+  FaTools,
+  FaGithub,
+  FaLinkedin,
+} from "react-icons/fa";
+import { HiMail } from "react-icons/hi";
 
 export const navLinks = [
   {
@@ -25,7 +32,7 @@ export const skills = [
     Icon: FaReact,
     color: "#61DAFB",
     tools:
-      "React, Redux, Angular, HTML, CSS, Bootstrap, MaterialUI, TailwindCSS, StyledComponents",
+      "React, Redux, Angular, HTML, CSS, SASS/SCSS, Bootstrap, MaterialUI, TailwindCSS, StyledComponents",
   },
   {
     id: 2,
@@ -61,5 +68,23 @@ export const formationItems = [
     title: "Programador Web",
     institute: "ifrs",
     nivel: "curso aberto",
+  },
+];
+
+export const socialLinks = [
+  {
+    id: 1,
+    link: "https://github.com/matheus-ferreira1",
+    Icon: FaGithub,
+  },
+  {
+    id: 2,
+    link: "https://www.linkedin.com/in/matheus-ferreira33/",
+    Icon: FaLinkedin,
+  },
+  {
+    id: 3,
+    link: "mailto:matheustferreira33@gmail.com",
+    Icon: HiMail,
   },
 ];
