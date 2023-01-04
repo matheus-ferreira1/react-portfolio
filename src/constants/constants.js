@@ -1,26 +1,19 @@
-import {
-  FaReact,
-  FaNodeJs,
-  FaTools,
-  FaGithub,
-  FaLinkedin,
-} from "react-icons/fa";
-import { HiMail } from "react-icons/hi";
+import { FaReact, FaNodeJs, FaTools } from "react-icons/fa";
 
 export const navLinks = [
   {
     id: "home",
-    title: "Home",
+    title: "Início",
     path: "/",
   },
   {
     id: "projects",
-    title: "Projects",
+    title: "Projetos",
     path: "/projects",
   },
   {
     id: "experience",
-    title: "Experience",
+    title: "Experiência",
     path: "/experience",
   },
 ];
@@ -71,20 +64,35 @@ export const formationItems = [
   },
 ];
 
-export const socialLinks = [
+export const experience = [
   {
     id: 1,
-    link: "https://github.com/matheus-ferreira1",
-    Icon: FaGithub,
+    company: "TK Elevator",
+    role: "Information Technology Intern",
+    description:
+      "Atuação como Analista de Suporte e Desenvolvimento, atendendo diretamente as filiais do estado do Paraná, assim como usuários da América Latina (HelpDesk). Suporte a sistemas Microsoft AD e Azure, gestão de Windows Server  e desenvolvimento de soluções para problemas e processos internos.",
+    keywords: ["helpdesk", "office 365", "windows server", "SQL"],
+    dateInit: "2022",
+    dateEnd: "atual",
   },
   {
     id: 2,
-    link: "https://www.linkedin.com/in/matheus-ferreira33/",
-    Icon: FaLinkedin,
+    company: "Freelancer",
+    role: "desenvolvedor",
+    description:
+      "Desenvolvimento de codificações sob demanda para serem utilizadas na plataforma ProfitChart (Nelogica). Projetos desenvolvidos seguindo setups descritos na literatura ou o modelo do cliente, podendo ser utilizados para automação de operações, screening, criação de regras de coloração, backtesting, etc. Tecnologia utilizada: NTSL (Nelogica Trading System Language).",
+    keywords: ["lógica", "nelogica", "metatrader", "SQL"],
+    dateInit: "2021",
+    dateEnd: "2022",
   },
   {
     id: 3,
-    link: "mailto:matheustferreira33@gmail.com",
-    Icon: HiMail,
+    company: "Instituto Brasileiro de Geografia e Estatística",
+    role: "Agente de Pesquisa e Mapeamento",
+    description:
+      "Pesquisador responsável pela realização de pesquisas econômicas e sociodemográficas, levantamentos geográficos e cartográficos, atuando visitando domicílios e estabelecimentos coletando dados para fins estatísticos. Coleta de dados através de banco de dados SQL para desenvolvimento das pesquisas amplamente divulgadas periodicamente.",
+    keywords: ["pesquisa", "data", "SQL"],
+    dateInit: "2018",
+    dateEnd: "2021",
   },
 ];

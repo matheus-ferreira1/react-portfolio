@@ -4,7 +4,7 @@ import { HiMail } from "react-icons/hi";
 
 const Footer = () => {
   return (
-    <footer className="w-full px-4 lg:px-0 py-24 bg-black text-white max-w-[1240px] mx-auto flex flex-col gap-8">
+    <footer className="w-full px-4 lg:px-0 py-28 bg-black text-white max-w-[1240px] mx-auto flex flex-col gap-8">
       <div className="flex justify-center items-center gap-4">
         <a
           className="hover:text-yellow-500 duration-200"
@@ -30,7 +30,7 @@ const Footer = () => {
       </div>
 
       <div className="flex flex-col justify-center items-center">
-        <p>
+        <p className="text-base">
           Feito com <span className="text-yellow-500">❤</span> e ☕ por Matheus
           Ferreira
         </p>
