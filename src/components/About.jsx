@@ -17,7 +17,7 @@ const AboutItem = ({ item }) => {
 
 const About = () => {
   return (
-    <section className="w-full px-4 lg:px-0 py-24 bg-gray-50 text-black">
+    <section className="w-full px-4 lg:px-0 py-28 bg-gray-50 text-black">
       <div className="max-w-[1240px] mx-auto flex flex-col lg:flex-row gap-8 lg:gap-4">
         <div className="flex-1">
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-8">
