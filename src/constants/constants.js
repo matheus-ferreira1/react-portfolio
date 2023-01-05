@@ -96,3 +96,30 @@ export const experience = [
     dateEnd: "2021",
   },
 ];
+
+export const formacao = [
+  {
+    id: 1,
+    institute: "Faculdade Descomplica",
+    nivel: "tecnólogo",
+    course: "Análise e Des. de Sistemas",
+    dateInit: 2022,
+    dateEnd: 2024,
+  },
+  {
+    id: 2,
+    institute: "UFBA",
+    nivel: "mestrado",
+    course: "Engenharia Química",
+    dateInit: 2017,
+    dateEnd: 2018,
+  },
+  {
+    id: 3,
+    institute: "UFBA",
+    nivel: "bacharel",
+    course: "Biotecnologia",
+    dateInit: 2012,
+    dateEnd: 2017,
+  },
+];

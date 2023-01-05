@@ -2,7 +2,7 @@ import React from "react";
 
 const KeywordCard = ({ children }) => {
   return (
-    <h5 className="bg-gray-800 rounded-md p-2 capitalize text-sm">
+    <h5 className="bg-gray-900 rounded-md p-2 capitalize text-sm">
       {children}
     </h5>
   );
@@ -12,7 +12,7 @@ const ExperienceCard = ({ item }) => {
   const { company, role, description, keywords, dateInit, dateEnd } = item;
 
   return (
-    <article className="bg-black p-8 rounded-lg flex flex-col gap-3 w-full md:max-w-[500px]">
+    <article className="bg-black p-8 rounded-lg flex flex-col gap-3 w-full md:max-w-[800px]">
       <h6 className="uppercase text-sm font-light text-gray-300 flex justify-start items-center">
         <span className="mr-2 h-[4px] bg-yellow-500 w-6 " />
         {role}
