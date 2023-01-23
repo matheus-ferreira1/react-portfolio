@@ -23,7 +23,7 @@ const ExperienceCard = ({ item }) => {
         {dateEnd}
       </h5>
       <p className="text-justify">{description}</p>
-      <div className="flex gap-2">
+      <div className="flex gap-2 flex-wrap">
         {keywords.map((keyword) => (
           <KeywordCard key={keyword}>{keyword}</KeywordCard>
         ))}

@@ -26,7 +26,7 @@ const Navbar = () => {
           {navLinks.map((nav, index) => (
             <li
               key={nav.id}
-              className={`font-bold cursor-pointer text-md ${
+              className={`font-bold cursor-pointer text-md hover:text-gray-200 duration-200 ${
                 activeLink === nav.title ? "text-yellow-500" : "text-gray-400"
               } ${index === navLinks.length - 1 ? "mr-0" : "mr-10"}`}
               onClick={() => setActiveLink(nav.title)}

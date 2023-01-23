@@ -5,7 +5,7 @@ import Laptop from "../assets/laptop.jpg";
 
 const Hero = () => {
   return (
-    <section className="w-full mx-auto my-auto bg-white py-32 px-4 text-black">
+    <section className="w-full mx-auto my-auto bg-white py-16 md:py-32 px-4 text-black">
       <div className="max-w-[1240px] mx-auto flex flex-col md:flex-row justify-center items-center gap-4">
         <div className="w-[70%] md:w-[50%]">
           <img

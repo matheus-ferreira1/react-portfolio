@@ -39,7 +39,7 @@ export const skills = [
     name: "ferramentas",
     Icon: FaTools,
     color: "#ECB71F",
-    tools: "NPM, Yarn, Linux",
+    tools: "NPM, Yarn, Vite, Linux",
   },
 ];
 
@@ -91,7 +91,7 @@ export const experience = [
     role: "Agente de Pesquisa e Mapeamento",
     description:
       "Pesquisador responsável pela realização de pesquisas econômicas e sociodemográficas, levantamentos geográficos e cartográficos, atuando visitando domicílios e estabelecimentos coletando dados para fins estatísticos. Coleta de dados através de banco de dados SQL para desenvolvimento das pesquisas amplamente divulgadas periodicamente.",
-    keywords: ["pesquisa", "data", "SQL"],
+    keywords: ["pesquisa", "data-analysis", "SQL"],
     dateInit: "2018",
     dateEnd: "2021",
   },
@@ -121,5 +121,63 @@ export const formacao = [
     course: "Biotecnologia",
     dateInit: 2012,
     dateEnd: 2017,
+  },
+];
+
+export const courses = [
+  {
+    id: 1,
+    title: "Lógica de Programação",
+    institute: "Udemy",
+    hours: 14,
+  },
+  {
+    id: 2,
+    title: "Responsive Web Design",
+    institute: "freeCodeCamp",
+    hours: 300,
+  },
+  {
+    id: 3,
+    title: "Desenvolvimento Web Completo",
+    institute: "Udemy",
+    hours: 114.5,
+  },
+  {
+    id: 4,
+    title: "Projetos ágeis com SCRUM",
+    institute: "Digital One Innovation",
+    hours: 2,
+  },
+  {
+    id: 5,
+    title: "Git - Básico ao avançado (2021)",
+    institute: "Udemy",
+    hours: 4,
+  },
+  {
+    id: 6,
+    title: "React: Using TypeScript",
+    institute: "LinkedIn Learning",
+    hours: 1,
+  },
+  {
+    id: 7,
+    title: "Curso Prático React e Next.js Essencial com Typescript",
+    institute: "Udemy",
+    hours: 12.5,
+  },
+];
+
+export const languages = [
+  {
+    id: 1,
+    name: "inglês",
+    fluency: "fluente",
+  },
+  {
+    id: 2,
+    name: "espanhol",
+    fluency: "básico",
   },
 ];
