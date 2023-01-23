@@ -46,9 +46,9 @@ const Experience = () => {
             <span className="text-yellow-500">.</span>
           </h1>
           <ul className="flex flex-wrap md:flex-row justify-center items-center gap-4 w-full">
-            {courses.map((item) => (
-              <CourseCard key={item.id} item={item} />
-            ))}
+            {courses
+              .map((item) => <CourseCard key={item.id} item={item} />)
+              .reverse()}
           </ul>
         </div>
         {/* idiomas */}
