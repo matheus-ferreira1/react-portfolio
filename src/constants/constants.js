@@ -181,3 +181,64 @@ export const languages = [
     fluency: "básico",
   },
 ];
+
+export const projects = [
+  {
+    id: 1,
+    title: "Movies App",
+    imagePath: "./src/assets/laptop.jpg",
+    description:
+      "Aplicativo que requisita dados da API The Movie Database, mostrando em tela os principais filmes do momento. Também há a opção de filtrar os resultados.",
+    stack: [
+      "Typescript",
+      "React",
+      "Axios",
+      "TailwindCSS",
+      "TheMovieDatabaseAPI",
+    ],
+    demo: "https://movies-app-matheus-ferreira1.vercel.app/",
+    code: "https://github.com/matheus-ferreira1/movies-app",
+  },
+  {
+    id: 2,
+    title: "Landing page de banco",
+    imagePath: "./src/assets/laptop.jpg",
+    description:
+      "Uma página web simples  totalmente responsiva, criada para treinar os conceitos do TailwindCSS de Mobile-First",
+    stack: [
+      "Javascript",
+      "React",
+      "Mobile-First",
+      "TailwindCSS",
+      "responsive-web-design",
+    ],
+    demo: "https://teuzobank.vercel.app/",
+    code: "https://github.com/matheus-ferreira1/Financial-landing-page",
+  },
+  {
+    id: 3,
+    title: "Aplicativo de clima",
+    imagePath: "./src/assets/laptop.jpg",
+    description:
+      "Uma SPA onde o usuário pode procurar pelo nome de uma cidade e visualizar as  informações de clima do local, caso seja encontrada. Utiliza a API OpenWeatherMap.",
+    stack: ["Typescript", "React", "OpenWeatherMap API", "TailwindCSS"],
+    demo: "https://weather-app-matheus.vercel.app/",
+    code: "https://github.com/matheus-ferreira1/weather-app",
+  },
+  {
+    id: 4,
+    title: "E-commerce frontend",
+    imagePath: "./src/assets/laptop.jpg",
+    description:
+      "Aplicação que simula o frontend de um e-commerce. Interface moderna com Hero Section com CTA. Produtos mostrados são requisitados da FakeStoreAPI, utilizando axios. Toda a funcionalidade de incluir e exluir no carrinho inclusa.",
+    stack: [
+      "React",
+      "ContextAPI",
+      "react-router-dom",
+      "TailwindCSS",
+      "FakeStoreAPI",
+    ],
+    demo: "https://matheus-ecommerce-front.vercel.app/",
+    code: "https://github.com/matheus-ferreira1/ecommerce-front",
+  },
+];

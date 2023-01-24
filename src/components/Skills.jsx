@@ -4,7 +4,7 @@ import { skills } from "../constants/constants";
 
 const Skills = () => {
   return (
-    <section className="w-full px-4 py-16 md:py-32 bg-gray-1 text-white">
+    <section className="w-full px-4 py-16 md:py-32 bg-gray-2 text-white">
       <div className="max-w-[1240px] mx-auto">
         <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-8">
           Habilidades<span className="text-yellow-500">.</span>
