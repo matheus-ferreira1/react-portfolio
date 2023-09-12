@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import Navbar from "./components/Navbar";
 
 type Theme = "light" | "dark";
 
@@ -26,13 +27,8 @@ function App() {
   };
 
   return (
-    <div className="h-screen bg-white dark:bg-black flex flex-col justify-center items-center transition-colors duration-1000">
-      <h1 className="text-3xl font-bold text-black dark:text-white">
-        Hello world!
-      </h1>
-      <button className="bg-blue-600 text-black" onClick={toggleTheme}>
-        toggle theme
-      </button>
+    <div className="bg-gray-50 text-gray-950 relative  dark:bg-gray-950 dark:text-gray-50 dark:text-opacity-90 transition-colors duration-1000">
+      <Navbar theme={theme} toggleTheme={toggleTheme} />
     </div>
   );
 }
