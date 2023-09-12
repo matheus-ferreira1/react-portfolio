@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
 
 type Theme = "light" | "dark";
 
@@ -27,8 +28,9 @@ function App() {
   };
 
   return (
-    <div className="bg-gray-50 text-gray-950 relative  dark:bg-gray-950 dark:text-gray-50 dark:text-opacity-90 transition-colors duration-1000">
+    <div className="h-screen bg-gray-50 text-gray-950 dark:bg-gray-950 dark:text-gray-50 dark:text-opacity-90 transition-colors duration-1000">
       <Navbar theme={theme} toggleTheme={toggleTheme} />
+      <Hero />
     </div>
   );
 }
