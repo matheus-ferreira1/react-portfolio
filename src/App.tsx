@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Divider from "./components/Divider";
+import About from "./components/About";
 
 type Theme = "light" | "dark";
 
@@ -29,10 +30,11 @@ function App() {
   };
 
   return (
-    <div className="h-screen bg-gray-50 text-gray-950 dark:bg-gray-950 dark:text-gray-50 dark:text-opacity-90 transition-colors duration-1000">
+    <div className="bg-gray-50 text-gray-950 dark:bg-gray-950 dark:text-gray-50 dark:text-opacity-90 transition-all duration-1000">
       <Navbar theme={theme} toggleTheme={toggleTheme} />
       <Hero />
       <Divider />
+      <About />
     </div>
   );
 }

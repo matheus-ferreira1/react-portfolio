@@ -1,7 +1,7 @@
 const Divider = () => {
   return (
     <div className="w-full flex items-center justify-center">
-      <span className="text-center bg-gray-300 my-10 h-16 w-1 rounded-full hidden sm:block dark:bg-opacity-20"></span>
+      <span className="text-center bg-gray-300 my-3 h-[70px] w-1 rounded-full block dark:bg-opacity-20"></span>
     </div>
   );
 };
