@@ -18,18 +18,20 @@ const Hero: FC<HeroProps> = ({}) => {
         com <span className="font-bold">2 anos</span> de experiência. Apaixonado
         por novas tecnologias e desafios.
       </h1>
-      <div className="mt-4 z-10 flex items-center justify-center gap-4">
+      <div className="mt-4 z-10 flex flex-col sm:flex-row items-center justify-center gap-4">
         <Button href="" fullWidth label="Download CV" icon={FiDownload} />
-        <Button
-          href="https://www.linkedin.com/in/matheus-ferreira33/"
-          outline
-          icon={AiFillLinkedin}
-        />
-        <Button
-          href="https://github.com/matheus-ferreira1"
-          outline
-          icon={AiFillGithub}
-        />
+        <div className="flex gap-4">
+          <Button
+            href="https://www.linkedin.com/in/matheus-ferreira33/"
+            outline
+            icon={AiFillLinkedin}
+          />
+          <Button
+            href="https://github.com/matheus-ferreira1"
+            outline
+            icon={AiFillGithub}
+          />
+        </div>
       </div>
     </main>
   );
