@@ -39,38 +39,45 @@ export const links = [
 
 export const projectsData = [
   {
-    title: "Movies App",
+    title: "Twitter Clone",
     description:
-      "Aplicativo que requisita dados da API The Movie Database, mostrando em tela os principais filmes do momento. Também há a opção de filtrar os resultados.",
-    tags: ["Typescript", "React", "Axios", "TailwindCSS", "TMDB API"],
-    imagePath: "",
-    demo: "https://movies-app-matheus-ferreira1.vercel.app/",
-    code: "https://github.com/matheus-ferreira1/movies-app",
-  },
-  {
-    title: "Landing page de banco",
-    description:
-      "Uma página web simples  totalmente responsiva, criada para treinar os conceitos do TailwindCSS de Mobile-First",
+      "Clone do twitter construído utilizando React, com as funcionalidades de login e registro, publicar, seguir novos usuários, comentar e curtir.",
     tags: [
-      "Javascript",
+      "Typescript",
       "React",
-      "Mobile-First",
+      "Next.js",
+      "Axios",
       "TailwindCSS",
-      "responsive-web-design",
+      "Prisma",
+      "MongoDB",
+      "Zustand",
     ],
-    imagePath: "",
-    demo: "https://teuzobank.vercel.app/",
-    code: "https://github.com/matheus-ferreira1/Financial-landing-page",
+    imagePath:
+      "https://raw.githubusercontent.com/matheus-ferreira1/twitter-clone/main/public/image.png",
+    demo: "https://mf-twitter.vercel.app/",
+    code: "https://github.com/matheus-ferreira1/twitter-clone",
   },
   {
-    title: "Aplicativo de clima",
+    title: "Airbnb Clone",
     description:
-      "Uma SPA onde o usuário pode procurar pelo nome de uma cidade e visualizar as  informações de clima do local, caso seja encontrada. Utiliza a API OpenWeatherMap.",
-    tags: ["Typescript", "React", "OpenWeatherMap API", "TailwindCSS"],
-    imagePath: "",
-    demo: "https://weather-app-matheus.vercel.app/",
-    code: "https://github.com/matheus-ferreira1/weather-app",
+      "Clone do Airbnb construído utilizando React, com as funcionalidades de login e registro, publicar um local, realizar locação, agendar datas, curtir os locais desejados.",
+    tags: [
+      "Typescript",
+      "Next.js",
+      "Axios",
+      "TailwindCSS",
+      "Prisma",
+      "MongoDB",
+      "Zustand",
+      "SWR",
+      "Cloudinary",
+    ],
+    imagePath:
+      "https://raw.githubusercontent.com/matheus-ferreira1/airbnb-clone/main/public/images/image.png",
+    demo: "https://mf-bnb.vercel.app/",
+    code: "https://github.com/matheus-ferreira1/airbnb-clone",
   },
+
   {
     title: "E-commerce frontend",
     description:
