@@ -16,7 +16,7 @@ const Experience: FC<ExperienceProps> = ({ theme }) => {
   return (
     <section
       id="experience"
-      className="scroll-mt-20 flex flex-col justify-center items-center max-w-5xl px-10 md:mx-auto py-11"
+      className="scroll-mt-20 flex flex-col justify-center items-center max-w-5xl px-7 md:mx-auto py-11"
     >
       <h1 className="text-2xl font-semibold">Experiência</h1>
       <VerticalTimeline lineColor="">
@@ -52,7 +52,7 @@ const Experience: FC<ExperienceProps> = ({ theme }) => {
                   <Keyword key={index}>{keyword}</Keyword>
                 ))}
               </ul>
-              <p className="!mt-1 !font-normal text-gray-700 dark:text-white/75">
+              <p className="!mt-1 !font-light text-gray-700 dark:text-white/75">
                 {item.description}
               </p>
             </VerticalTimelineElement>
