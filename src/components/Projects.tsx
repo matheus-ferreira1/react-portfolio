@@ -8,7 +8,7 @@ const Projects: FC<ProjectsProps> = ({}) => {
   return (
     <div
       id="projects"
-      className="flex flex-col justify-center items-center max-w-4xl px-10 md:mx-auto py-11"
+      className="scroll-mt-20 flex flex-col justify-center items-center max-w-4xl px-10 md:mx-auto py-11"
     >
       <h1 className="text-2xl font-semibold">Projetos</h1>
       <section className="mt-4 flex flex-col gap-4">

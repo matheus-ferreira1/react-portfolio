@@ -34,7 +34,7 @@ function App() {
   };
 
   return (
-    <div className="bg-gray-50 text-gray-950 dark:bg-gray-950 dark:text-gray-50 dark:text-opacity-90 transition-all duration-1000 scroll-smooth">
+    <div className=" bg-gray-50 text-gray-950 dark:bg-gray-950 dark:text-gray-50 dark:text-opacity-90 transition-all duration-1000">
       <Navbar theme={theme} toggleTheme={toggleTheme} />
       <Hero />
       <Divider />

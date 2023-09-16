@@ -31,10 +31,10 @@ export const links = [
     name: "Habilidades",
     link: "#skills",
   },
-  {
-    name: "Formação",
-    link: "#school",
-  },
+  // {
+  //   name: "Formação",
+  //   link: "#school",
+  // },
 ];
 
 export const projectsData = [

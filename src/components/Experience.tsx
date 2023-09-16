@@ -16,7 +16,7 @@ const Experience: FC<ExperienceProps> = ({ theme }) => {
   return (
     <section
       id="experience"
-      className="flex flex-col justify-center items-center max-w-5xl px-10 md:mx-auto py-11"
+      className="scroll-mt-20 flex flex-col justify-center items-center max-w-5xl px-10 md:mx-auto py-11"
     >
       <h1 className="text-2xl font-semibold">Experiência</h1>
       <VerticalTimeline lineColor="">

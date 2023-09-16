@@ -6,7 +6,7 @@ const About: FC<AboutProps> = ({}) => {
   return (
     <article
       id="about"
-      className="flex flex-col justify-center items-center max-w-4xl px-10 md:mx-auto py-11"
+      className="scroll-mt-20 flex flex-col justify-center items-center max-w-4xl px-10 md:mx-auto py-11"
     >
       <h1 className="text-2xl font-semibold">Sobre mim</h1>
       <p className="mt-4 font-thin text-center leading-relaxed">
