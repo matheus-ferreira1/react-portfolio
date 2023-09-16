@@ -1,5 +1,6 @@
 import { FC } from "react";
 import placeholderImage from "../../public/placeholder.png";
+import Keyword from "./Keyword";
 
 interface ProjectCardProps {
   title: string;
@@ -31,12 +32,7 @@ const ProjectCard: FC<ProjectCardProps> = ({
           </p>
           <ul className="flex flex-wrap my-4 gap-2 ">
             {tags.map((tag, index) => (
-              <li
-                className="bg-black/[0.7] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:text-white/70"
-                key={index}
-              >
-                {tag}
-              </li>
+              <Keyword key={index}>{tag}</Keyword>
             ))}
           </ul>
           <section className="flex items-center gap-2">

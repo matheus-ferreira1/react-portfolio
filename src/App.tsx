@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 import Divider from "./components/Divider";
 import About from "./components/About";
 import Projects from "./components/Projects";
+import Experience from "./components/Experience";
 
 type Theme = "light" | "dark";
 
@@ -37,6 +38,7 @@ function App() {
       <Divider />
       <About />
       <Projects />
+      <Experience theme={theme} />
     </div>
   );
 }
