@@ -1,7 +1,14 @@
 import React from "react";
 import { BsBuildingCheck, BsDatabase } from "react-icons/bs";
 import { AiOutlineLaptop } from "react-icons/ai";
-import { FaReact, FaServer, FaTools } from "react-icons/fa";
+import {
+  FaReact,
+  FaServer,
+  FaTools,
+  FaGithub,
+  FaLinkedin,
+} from "react-icons/fa";
+import { HiMail } from "react-icons/hi";
 
 export const links = [
   {
@@ -108,7 +115,29 @@ export const skillsData = [
   },
 ];
 
-export const schoolData = [];
+export const schoolData = [
+  {
+    institute: "UFBA",
+    nivel: "bacharelado",
+    course: "Biotecnologia",
+    dateInit: 2012,
+    dateEnd: 2017,
+  },
+  {
+    institute: "UFBA",
+    nivel: "mestrado",
+    course: "Engenharia Química",
+    dateInit: 2017,
+    dateEnd: 2018,
+  },
+  {
+    institute: "Faculdade Descomplica",
+    nivel: "tecnólogo",
+    course: "Análise e Des. de Sistemas",
+    dateInit: 2022,
+    dateEnd: 2024,
+  },
+];
 
 export const experienceData = [
   {
@@ -145,5 +174,23 @@ export const experienceData = [
     keywords: ["lógica", "nelogica", "metatrader", "SQL"],
     date: "2021 - 2022",
     icon: React.createElement(AiOutlineLaptop),
+  },
+];
+
+export const footerLinks = [
+  {
+    Icon: FaGithub,
+    href: "https://github.com/matheus-ferreira1",
+    id: 1,
+  },
+  {
+    Icon: FaLinkedin,
+    href: "https://www.linkedin.com/in/matheus-ferreira33/",
+    id: 2,
+  },
+  {
+    Icon: HiMail,
+    href: "mailto:matheusferreira.dev@outlook.com",
+    id: 3,
   },
 ];

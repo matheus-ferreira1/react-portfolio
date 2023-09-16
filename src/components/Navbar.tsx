@@ -10,10 +10,10 @@ interface NavbarProps {
 const Navbar: FC<NavbarProps> = ({ toggleTheme, theme }) => {
   return (
     <header
-      id="home"
-      className="sticky top-0 z-30 border-b border-gray-300 dark:border-gray-300 dark:border-opacity-30 text-gray-900 dark:text-gray-200 max-w-4xl px-10 md:mx-auto mx-auto"
+      id="#"
+      className="sticky top-0 z-30 border-b border-gray-300 dark:border-gray-300 dark:border-opacity-30 text-gray-900 dark:text-gray-200 max-w-5xl px-10 md:mx-auto mx-auto backdrop-filter backdrop-blur-lg bg-opacity-30"
     >
-      <div className="flex items-center justify-center md:justify-between h-20 mx-4 sm:mx-2 md:mx-auto backdrop-filter backdrop-blur-lg bg-opacity-30">
+      <div className="flex items-center justify-center md:justify-between h-20 mx-4 sm:mx-2 md:mx-auto ">
         <span className="hidden md:block text-2xl font-bold">
           matheus.ferreira
         </span>
