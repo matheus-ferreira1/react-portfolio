@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Divider from "./components/Divider";
 import About from "./components/About";
+import Projects from "./components/Projects";
 
 type Theme = "light" | "dark";
 
@@ -30,11 +31,12 @@ function App() {
   };
 
   return (
-    <div className="bg-gray-50 text-gray-950 dark:bg-gray-950 dark:text-gray-50 dark:text-opacity-90 transition-all duration-1000">
+    <div className="bg-gray-50 text-gray-950 dark:bg-gray-950 dark:text-gray-50 dark:text-opacity-90 transition-all duration-1000 scroll-smooth">
       <Navbar theme={theme} toggleTheme={toggleTheme} />
       <Hero />
       <Divider />
       <About />
+      <Projects />
     </div>
   );
 }
