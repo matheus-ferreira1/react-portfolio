@@ -1,6 +1,7 @@
+import React from "react";
 import { BsBuildingCheck, BsDatabase } from "react-icons/bs";
 import { AiOutlineLaptop } from "react-icons/ai";
-import React from "react";
+import { FaReact, FaServer, FaTools } from "react-icons/fa";
 
 export const links = [
   {
@@ -16,12 +17,12 @@ export const links = [
     link: "#projects",
   },
   {
-    name: "Habilidades",
-    link: "#skills",
-  },
-  {
     name: "Experiência",
     link: "#experience",
+  },
+  {
+    name: "Habilidades",
+    link: "#skills",
   },
   {
     name: "Formação",
@@ -66,7 +67,7 @@ export const projectsData = [
   {
     title: "E-commerce frontend",
     description:
-      "Aplicação que simula o frontend de um e-commerce. Interface moderna com hero Section e call-to-action. Produtos mostrados são requisitados da FakeStoreAPI, utilizando axios. Toda a funcionalidade de incluir e exluir no carrinho inclusa.",
+      "Interface moderna do frontend de um e-commerce. Produtos mostrados são requisitados da FakeStoreAPI, utilizando axios. Toda a funcionalidade de incluir e exluir no carrinho inclusa.",
     tags: [
       "React",
       "ContextAPI",
@@ -80,7 +81,32 @@ export const projectsData = [
   },
 ];
 
-export const skillsData = [];
+export const skillsData = [
+  {
+    id: 1,
+    name: "front-end",
+    Icon: FaReact,
+    color: "#61DAFB",
+    tools:
+      "React, Next.js, Redux, Angular, HTML, CSS, SASS, Bootstrap, TailwindCSS, StyledComponents, API integration",
+  },
+  {
+    id: 2,
+    name: "back-end",
+    Icon: FaServer,
+    color: "#64B649",
+    tools:
+      "Node, Express, Nest, PHP, Java, Spring, GraphQL, SQL Server, MySQL, MongoDB, Firebird",
+  },
+  {
+    id: 3,
+    name: "ferramentas",
+    Icon: FaTools,
+    color: "#ECB71F",
+    tools:
+      "NPM, Yarn, Vite, Linux, FTP, Filezilla, Scrum, SQL Studio Management, IBExpert, Git, GitHub, SVN, Docker, AWS",
+  },
+];
 
 export const schoolData = [];
 
