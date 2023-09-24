@@ -118,7 +118,7 @@ export const skillsData = [
     Icon: FaTools,
     color: "#ECB71F",
     tools:
-      "NPM, Yarn, Vite, Linux, FTP, Filezilla, Scrum, SQL Studio Management, IBExpert, Git, GitHub, SVN, Docker, AWS",
+      "NPM, Yarn, Vite, Linux, FTP, Filezilla, Scrum, SQL Studio Management, IBExpert, Git, GitHub, Tortoise, Docker, AWS",
   },
 ];
 
@@ -151,7 +151,7 @@ export const experienceData = [
     company: "Javé Nessí",
     role: "Analista de Suporte e Desenvolvimento",
     description:
-      "Atuação como programador fullstack, trabalhando em projetos como um ERP para operadoras/administradoras de saúde suplementar. Contribuo diretamente no desenvolvimento e manutenção de soluções utilizando Angular, PHP, SQL Server, Firebird, entre outras tecnologias.",
+      "Atuação como programador fullstack, trabalhando em projetos como um sistema de gestão de cartão de desconto e ERP para operadoras/administradoras de saúde suplementar. Contribuo diretamente no desenvolvimento e manutenção de soluções utilizando Delphi, Angular, PHP, SQL Server, Firebird, entre outras tecnologias.",
     keywords: [
       "Delphi",
       "HTML/CSS",
